@@ -51,10 +51,10 @@ new Vue({
         },
         endGame: function(lost) {
             if (lost === "player") {
-                let message = "You lose, monster wins"
+                alert("You lose, monster wins");
             }
             else {
-                let message = "You win, monster lost"
+                alert("You win, monster lost");
             }
             this.playGameToggle()
         },
